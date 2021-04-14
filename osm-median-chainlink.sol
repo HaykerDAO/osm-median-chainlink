@@ -228,7 +228,7 @@ contract Value is DSThing {
         require(haz, "haz-not");
         return wut;
     }
-    function poke() public note auth {
+    function poke() public note {
         (
             uint80 roundID, 
             int price,
